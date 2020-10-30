@@ -1,0 +1,428 @@
+h3.heading 
+{
+    margin-top: 75px 0;
+    text-align: center;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+    color: black;
+    
+} 
+
+.stars h2
+{
+  height: 150px;
+  width: 500px;
+  text-align: center;
+}
+
+.stars input
+{
+  display: none;
+}
+
+.stars label
+{
+  float: right;
+  margin: 0 0 2px;
+  text-align: left;
+  font-size: 40px;
+  color: lightgrey;
+  text-shadow: 1px 1px #bbb;
+
+}
+.stars label:before
+{
+  content: '\2605';
+}
+.stars input:checked ~ label
+{
+  color: gold;
+  text-shadow: 1px 1px #c60;
+}
+.stars:not(:checked) > label:hover,
+.stars:not(:checked) > label:hover ~ label
+{
+  color: gold;
+}
+
+.stars input:checked > label:hover,
+.stars input:checked > label:hover ~ label
+{
+  color: gold;
+  text-shadow: 1px 1px goldenrod;
+}
+
+.instaimages img{
+  margin: 10px 0px;
+}
+
+.page6{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.border{
+  border: 1px black solid;
+}
+
+.container6 {
+  left: 170px;
+  position: relative; 
+  width: 450px;
+  color: white;
+  text-align: center;
+  margin: 50px 0;
+}
+.receipe6 p
+{
+  text-align: center;
+  color: black;
+  padding: 12px;
+}
+
+.img{
+  margin: 30px 150px;
+  justify-content: center;
+}
+
+.page4 h2
+{
+  color: #eb34e2;
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  right: 30%;
+  text-align: left;
+  margin: 20px;
+}
+
+.page4 p
+{
+  color: black;
+  position: relative;
+  top: 100%;
+  width: 100%;
+  left: 30%;
+  text-align: left;
+  margin: 30px;
+
+}
+
+.page6 p
+{
+  color: black;
+  position: relative;
+  top: 100%;
+  width: 100%;
+  left: 30%;
+  text-align: left;
+  margin: 30px;
+
+}
+
+.fructe h3
+{
+  color:black;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  bottom: 20%;
+  width: 100%;
+  text-align: left;
+  margin: 20px;
+}
+
+.fructe h2
+{
+  color: darkgrey;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: left;
+  margin: 20px;
+}
+
+.fructe p
+{
+  color: lightyellow;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: left;
+  margin: 20px;
+
+}
+
+.page2 img
+{
+  background: transparent;
+  background: rgba(0, 0, 0, 10);
+}
+
+.page3 img
+{
+  border-bottom: 3.5px solid green; 
+}
+
+.page4 img
+{
+  border-bottom: 3.5px solid green; 
+}
+
+h3
+{
+  
+  color: white;
+}
+
+p
+{
+  
+  color: white;
+}
+
+h2
+{
+  
+  color: white;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("images/pizza.jpg");
+
+  min-height: 840px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+  
+}
+
+.bg-img2 {
+  /* The image used */
+  background-image: url("images/f6.jpg");
+
+  min-height: 840px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+  
+}
+
+.container2 {
+  left: 300px;
+  right: 300px;
+  position: absolute;
+  margin: 200px;
+  width: 450px;
+  color: white;
+  text-align: center;
+  
+}
+
+/* Position the navbar container inside the image - box-ul in sine cu totul */
+.container {
+  left: 145px;
+  position: absolute;
+  margin: 200px;
+  width: 450px;
+  border-left: 3px solid green;
+  background: transparent;
+  background: rgba(0, 0, 0, 0.2);
+  
+}
+
+/* The navbar - scrisul din box */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: .1rem; 
+    margin: 30px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.nav-item 
+{
+    height: 70px;
+    left: 300px;
+    position: relative;
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+    
+}
+
+
+.nav-link1{
+  border-bottom: 3px solid green;
+}
+
+.service-box 
+{ 
+
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: .4s;
+    background-color: transparent;
+    
+} 
+
+.receipe p
+{
+  padding: 10px;
+  margin-right: 60px;
+  margin-top: 20%;
+  height: 45px;
+  width: 165px;
+  text-align: center;
+  border-left: 3px solid green;
+}
+.receipe2 p
+{
+  top: 70px;
+  left: 18px;
+  color: white;
+  padding: 12px;
+  margin-right: 40px;
+  margin-top: 20%;
+  height: 50px;
+  width: 165px;
+  text-align: center;
+  border-left: 3px solid green;
+
+}
+
+.receipe3 p
+{
+  top: 70px;
+  left: 18px;
+  color: white;
+  padding: 12px;
+  margin-right: 50%;
+  margin-left: 25%;
+  margin-top: 30%;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  border-left: 3px solid green;
+
+}
+
+section .box
+{
+
+	position: relative;
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  margin: 100px auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  overflow: hidden;
+  color: #000;
+  
+	 
+}
+
+section .box h2
+{
+	position: relative;
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 48px;
+  text-transform: uppercase;
+  z-index: 2;
+  
+}
+section .box p
+{
+	position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  z-index: 2;
+  
+}
+
+section .box h3
+{
+  position: relative;
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 48px;
+  text-transform: uppercase;
+  z-index: 2;
+  height: 100px;
+  
+}
+
+section
+{
+	position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-attachment: fixed;
+  height: 100vh;
+  
+}
+
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+  
+}
+
+section .box:before
+{
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+ 
+  background-attachment: fixed;
+
+
+}
+
